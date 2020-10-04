@@ -1,6 +1,6 @@
 ---
 title: HelloWorld
-tags: []
+tags: [test]
 ---
 
 Some sample code
