@@ -1,7 +1,10 @@
 ---
 title: HelloWorld
+tags: []
 ---
 
 Some sample code
 
-> echo "Hello World"
+```
+echo "Hello World"
+```
