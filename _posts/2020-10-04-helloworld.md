@@ -1,9 +1,10 @@
 ---
 title: HelloWorld
-tags: [test]
+tags:
+- test
 ---
 
-Some sample code
+First blog post using the github blog. GITHUB HAS BLOGS?  True story bro! Coming in next post.
 
 ```
 echo "Hello World"
