@@ -96,7 +96,7 @@ author:
   name             : "meatsac"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "A fellow meatsac and techster"
-  location         : "Citizen of the World!)"
+  location         : "Citizen of the World!"
   email            :
   links:
     - label: "Email"
