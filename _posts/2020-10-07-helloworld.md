@@ -1,8 +1,8 @@
 ---
 title: HelloWorld2
-published: false
+published: true
 tags:
-- test
+  - test
 ---
 
 test
