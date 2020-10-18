@@ -23,7 +23,7 @@ curl -H "Authorization: token $token" --data '{"name":"<yourrepo>.github.io","de
 ```
 
 # Create a local repo in docker to hold your blog
-We will got clone the minimal-mistakes repo as a starting point for our blog
+We will git clone the minimal-mistakes repo as a starting point for our blog
 
 ```
 mkdir /etc/docker/jekyll
@@ -104,4 +104,8 @@ EOF
 ```
 
 # Finishing Up
-At this point you now have a "hello world" blog hosted on github. To create a new post just head over to jekylladmin, create your post and commit using the commit block above. You may also prefer to use something like prose to manage your blog on line without requiring local resources.
+At this point you now have a "hello world" blog hosted on github. To configure your blog you'll want to look at the config.yml file.  Have a look at these sources:
+* [https://www.cross-validated.com/Personal-website-with-Minimal-Mistakes-Jekyll-Theme-HOWTO-Part-II/](https://www.cross-validated.com/Personal-website-with-Minimal-Mistakes-Jekyll-Theme-HOWTO-Part-II/)
+* [Minimal Mistakes Official](https://mmistakes.github.io/minimal-mistakes/docs/configuration/)
+
+To create a new post just head over to jekylladmin, create your post and commit using the commit block above. You may also prefer to use something like prose.io to manage your blog on line without requiring local resources.
