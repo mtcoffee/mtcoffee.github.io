@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "meatsac"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/alright.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "A fellow meatsac and techie. Keep on livin, alright, alright!"
   location         : "Canada"
   email            :
