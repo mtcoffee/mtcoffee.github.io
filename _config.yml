@@ -25,7 +25,7 @@ url                      : # the base hostname & protocol for your site e.g. "ht
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "meatsac/meatsac.github.io" # GitHub username/repo-name
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "https://avatars3.githubusercontent.com/u/21280090?s=460&u=d9e6a4f723012b064d286702d39da30de17dd4e6&v=4" # path of logo image to display in the masthead
+logo                     : "/assets/arrow-up-circle-icon_2.png" # path of logo image to display in the masthead
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "meatsac"
-  avatar           : "/assets/alright.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "https://avatars3.githubusercontent.com/u/21280090?s=460&u=d9e6a4f723012b064d286702d39da30de17dd4e6&v=4"#/assets/alright.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "A fellow meatsac and techie. Keep on livin, alright, alright!"
   location         : "Canada"
   email            :
