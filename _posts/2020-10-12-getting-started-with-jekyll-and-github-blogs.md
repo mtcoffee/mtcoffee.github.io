@@ -5,6 +5,7 @@ tags:
 - github
 toc_sticky: true
 toc: true
+comments: true
 ---
 
 I was browsing around and saw people using github.io as a blogging url. Intrigued I looked into it and discovered github.io is not a bloging platform but does give you the capability to host static pages on github. To turn this in to blog you need something that will generate your blog into a set of static pages. Enter Jekyll. In this example I'm going to use a docker and a series of 1 liners to create a Jekyll blog on Github using the minimal mistakes theme developed by an indepdent dev.

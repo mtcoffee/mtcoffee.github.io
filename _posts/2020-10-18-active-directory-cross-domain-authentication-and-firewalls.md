@@ -5,6 +5,7 @@ tags:
 - kerberos
 - ActiveDirectory
 - SSSD
+comments: true
 ---
 
 # The Challenge
