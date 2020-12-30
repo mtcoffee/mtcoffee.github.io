@@ -9,7 +9,7 @@ Once again, how can we make this easy? Docker! With this “one liner” we will
 
 1. Call the official python:alpine docker image from docker hub
 2. Install the python requests module on the fly
-3. Execute the Python Selenium script to login to our ServiceNow instance and close all incidents that match our filter.
+3. Execute the Python script to login to our ServiceNow instance and close all incidents that match our filter.
 
 # The Solution
 Here’s the shell script. Just set your instance url, user and password.
