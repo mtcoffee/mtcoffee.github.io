@@ -10,9 +10,10 @@ Here is a screenshot of the UI action. Script is further down.
 
 The script
 ```
-function openRecordInAgentWorkspace(){
-var url = 'now/workspace/agent/record/incident/' + g_form.getUniqueValue();
-g_navigation.openPopup(url);
+function openRecordInAgentWorkspace() {
+    var table = g_form.getTableName();
+    var url = 'now/workspace/agent/record/' + table + '/' + g_form.getUniqueValue();
+    g_navigation.openPopup(url);
 }
 ```
 # Result
