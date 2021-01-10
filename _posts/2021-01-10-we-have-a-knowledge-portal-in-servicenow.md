@@ -10,7 +10,7 @@ Viewing Knowledge Articles on the portal is much nicer than the platform UI. To 
 ## Part 1 -Update a single UI Macro
 Customizing delivered UI Macro's, is not everyone's favourite choice but this is a very small and trackable change that can easily be rolled back if needed.
 1. Open the System UI--> UI Macros and open the UI Macro "**kb_view_common_header_banner_image**"
-2. After line 47, add the code snippet below.** (ignore the first and last lines, they're just there to help identify location)**
+2. After line 47, add the code snippet below. **Ignore the first and last lines, they're just there to help identify location**
 
 ```
 <j:if test="${state!=''}">$[HTML:state]</j:if>
