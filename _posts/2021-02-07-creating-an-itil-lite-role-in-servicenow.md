@@ -41,4 +41,4 @@ glide.ui.personalize_form.role
      * Where ever you see "itil" add the role "itil_lite".
 6. Assign this role to the necessary groups.
 
-This may not perfectly fit your situtation, but does address the cmdb write issue. One important detail to note, is the sn_change_write role includes ACL's for write access to the CMDB. So if you want to permit users to submit change requests but not have cmdb write access, you'll need to modify the cmdb_ci table ACL's .
+This may not perfectly fit your situtation, but does address the cmdb write issue. One important detail to note, is the sn_change_write role includes ACL's for write access to the CMDB. So if you want to permit users to submit change requests but not have cmdb write access, you'll need to modify the cmdb_ci table ACL's . Don't forget to document! Come upgrade time, you’ll be glad you did!
