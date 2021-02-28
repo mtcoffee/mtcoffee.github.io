@@ -113,3 +113,16 @@ It's tricky to go in to detail since every list is different but here is a prime
 ![]({{ 'assets/images/postmansp3.PNG' | relative_url }})  
 
 As expected, the new item is in the SharePoint List!
+
+# Bonus #
+If you need to remove the app registration, you can use the Azure Portal or PowerShell. Sample script
+```
+#first install the module and connect
+Install-Module MSOnline
+Connect-MsolService
+
+#then find and remove
+Get-MsolServicePrincipal -ServicePrincipalName <client id>
+$appPrincipal = Get-MsolServicePrincipal -ServicePrincipalName <client id>
+Remove-MsolServicePrincipal -ObjectId $appPrincipal.ObjectId
+```
