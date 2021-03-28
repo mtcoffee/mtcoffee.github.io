@@ -6,7 +6,7 @@ title: ServiceNow Client Scripts, GlideAjax and Record creation
 One of the most common mistakes ServiceNow developers make is using gliderecord in client scripts. Per ServiceNow, this is neither supported nor [recommended](https://docs.servicenow.com/bundle/quebec-application-development/page/script/client-scripts/concept/client-script-best-practices.html), however it does work. So why not run glide record queries/inserts in client scripts? A few reasons include:
 
 * Performance - [Community post](https://community.servicenow.com/community?id=community_question&sys_id=78edb1a3db1d53804837f3231f96193c)
-* Validation - Executing server side will peform the neccsary validation, more [here](https://www.basicoservicenowlearning.in/2019/12/glideajax-in-servicenow.html)
+* Validation - Executing server side will peform the necessary validation, more [here](https://www.basicoservicenowlearning.in/2019/12/glideajax-in-servicenow.html)
 * Security  - user access to record may prevent the action from working
 * Blowback - eventually you will get burned by this practice
 
