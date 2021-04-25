@@ -23,17 +23,19 @@ To accomplish this the client script was as follows:
 Code:
 ```
 function onChange(control, oldValue, newValue, isLoading, isTemplate) {
-    if (isLoading || newValue === '')
-        return;
-    var ref = g_form.getReference('cmdb_ci');
-    var refgroup = ref.change_control; // change_control is the name of the field on cmdb to get the group
-
-    if (refgroup) {
-        g_form.setValue('assignment_group', refgroup); 
-    } else {
-  g_form.addInfoMessage("Assignment Group from Configuration Item not found, please select manually");
-}
-
+    if (isLoading || newValue === '')
+        return;
+    var ref = g_form.getReference('cmdb_ci', callBack);
+    //calling as callback function so that this continues to work in agent workspace
+	//https://community.servicenow.com/community?id=community_question&sys_id=4471d692dbbbbf4c0be6a345ca9619ee
+    function callBack(ref) {
+        var refgroup = ref.change_control; // change_control is the name of the field on cmdb to get the group
+        if (refgroup) {
+            g_form.setValue('assignment_group', refgroup);
+        } else {
+            g_form.addInfoMessage("Assignment Group from Configuration Item not found, please select manually");
+        }
+    }
 }
 ```
 
