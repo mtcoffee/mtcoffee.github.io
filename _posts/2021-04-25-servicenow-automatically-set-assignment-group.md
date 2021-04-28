@@ -7,7 +7,7 @@ This is a useful tidbit for auto populating assignment groups. ServiceNow does h
 * [Assignment Lookup Rules](https://docs.servicenow.com/bundle/paris-platform-administration/page/administer/task-table/concept/c_AssignmentLookupRulesExample.html)
 * [Data lookup definitions](https://docs.servicenow.com/bundle/quebec-platform-administration/page/administer/field-administration/concept/c_DataLookRecMatchSupport.html)
 
-Howevever, sometimes a simple client script can offer less overhead. In this case I had the following requirements.
+However, sometimes a simple client script can offer less overhead. In this case I had the following requirements.
 1. When a requester picks a group it will auto set the assignment group to the Configuration Item approver group
 2. The requester can accept this or choose to override it
 3. If a group is not found on the CI, a pop up will alert them to select it manually
@@ -43,7 +43,9 @@ Set that on your table (incident/change etc) and your all set!
 
 
 # Why not Assignment Rule?
-I was asked, why not create an assignment rule, after all its built into the product. For example a simple rule under System Policy -> Assignment defined using this script snippet work work. Sample snippet:
+I was asked, why not create an assignment rule, after all its built into the product. For example a simple rule under System Policy -> Assignment, defined using this script snippet will work.  
+
+Sample snippet:
 ```
 if (JSUtil.notNil(current.cmdb_ci)) {
     current.assignment_group = current.cmdb_ci.support_group;
