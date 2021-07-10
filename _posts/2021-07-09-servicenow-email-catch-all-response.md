@@ -3,7 +3,7 @@ title: ServiceNow Email Catch All Response
 ---
 
 # The Problem
-Out of the box, emails replies sent to Request or Service Catalog items, are ignored by the system with no automatic response to the user, resulting in frustrated users/poor service.
+Out of the box, emails replies sent to Request or Service Catalog Tasks, are ignored by the system with no automatic response to the user, resulting in frustrated users/poor service.
 
 # The Solution
 To address this we can create a "catch all" response to notify users that their message was not processed.
