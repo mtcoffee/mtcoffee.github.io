@@ -12,15 +12,15 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "mt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "An IT and Dev Blog"
+title                    : "A Dev/Sec/Ops and ServiceNow Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "meatsac"
-description              : "An IT and Dev Blog"
+description              : "A Dev/Sec/Ops and ServiceNow Blog"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "meatsac/meatsac.github.io" # GitHub username/repo-name
@@ -93,9 +93,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "meatsac"
-  avatar           : "https://avatars3.githubusercontent.com/u/21280090?s=460&u=d9e6a4f723012b064d286702d39da30de17dd4e6&v=4"#/assets/alright.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "A fellow meatsac and techie. Keep on livin :)"
+  name             : "About Me"
+  avatar           : "https://avatars3.githubusercontent.com/u/21280090?s=460&u=d9e6a4f723012b064d286702d39da30de17dd4e6&v=4" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "A ServiceNow and DevOps enthusiast. I use this blog to share ideas and learn from others."
   location         : "Canada"
   email            :
   links:
@@ -113,7 +113,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/meatsac"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
