@@ -7,4 +7,4 @@ Installing a MID server on Windows while easy can present challenges at times. I
 
 The original script from ServiceNow is embedded in a function. All you need to do is set the variables and run the script. It will download the msi, configure the service account and run the install.
 # Script
-<script src="https://gist.github.com/meatsac/3486ed488401ec4a8995b94a102a96eb.js"></script>
+<script src="https://gist.github.com/mtcoffee/3486ed488401ec4a8995b94a102a96eb.js"></script>
