@@ -23,7 +23,7 @@ name                     : "meatsac"
 description              : "A Dev/Sec/Ops and ServiceNow Blog"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "meatsac/meatsac.github.io" # GitHub username/repo-name
+repository               : "mtcoffee/mtcoffee.github.io" # GitHub username/repo-name
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/arrow-up-circle-icon_2.png" # path of logo image to display in the masthead
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -129,7 +129,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: https://github.com/meatsac
+      url: https://github.com/mtcoffee
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
