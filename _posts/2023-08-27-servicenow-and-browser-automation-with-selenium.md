@@ -6,7 +6,7 @@ I created a similar version of this post a few years ago but it stopped working,
 # The Challenge
 While ServiceNow does have the ATF, sometimes you need an external browser automation tool. Enter Selenium! I wanted something to automate the process of logging in and creating test data. I also didn't want to create and hold a testing environment, I just want to run a script and make this happen. (Yes, REST API is an also an option, but I wanted something as flexible as what can be done in the UI).
 # The Solution
-Here's the shell script. Just set your instance url, user and password.
+Here's the Python script. Just set your instance url, user and password.
 <script src="https://gist.github.com/mtcoffee/f42c52690915a4e31a20272b2c5c0093.js"></script>
 
 I like to combine jobs like this with [Rundeck](https://www.rundeck.com/open-source), so that I can generate test data in my Personal Development Instance with a single button click!
