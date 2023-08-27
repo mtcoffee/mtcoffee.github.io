@@ -18,4 +18,4 @@ To accomplish this we can create a Discovery pre-post processor and system prope
     -   When to execute: 1 - Pre sensor
     -   Script: (most of this was borrowed from OOB processor "Certificate Management - Adding SAN and Renewal Tracking")
 
-<script src="https://gist.github.com/meatsac/abd617a3bdaa99232c04c8cf4f08424e.js"></script>
+<script src="https://gist.github.com/mtcoffee/abd617a3bdaa99232c04c8cf4f08424e.js"></script>
