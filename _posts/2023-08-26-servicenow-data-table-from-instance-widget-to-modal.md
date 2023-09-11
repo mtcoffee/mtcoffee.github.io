@@ -17,7 +17,6 @@ function actions($scope, spUtil, $location, spAriaFocusManager, spModal) {
 		var s = {id: p, table: parms.table, sys_id: parms.sys_id, view: 'sp'};
 		//var newURL = $location.search(s);
 		//spAriaFocusManager.navigateToLink(newURL.url());
-		//call widget to decrypt credential and show in modal
         spModal.open({
             title: "Record",
             widget: 'widget-form',
