@@ -93,7 +93,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "About Me"
+  name             : "mtcoffee"
   avatar           : "https://avatars3.githubusercontent.com/u/21280090?s=460&u=d9e6a4f723012b064d286702d39da30de17dd4e6&v=4" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "A ServiceNow and DevOps enthusiast. I use this blog to share ideas and learn from others."
   location         : "Canada"
