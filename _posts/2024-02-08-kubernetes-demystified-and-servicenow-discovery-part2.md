@@ -2,7 +2,7 @@
 title: Kubernetes Demystified and ServiceNow Discovery part2
 ---
 
-Now that we [have a Kubernetes Cluster](/kuberentes-demystified/) to Discover, lets dive into ServiceNow [Kubernetes Discovery](https://docs.servicenow.com/bundle/washingtondc-it-operations-management/page/product/service-mapping/concept/kubernetes-discovery.html).  This example assumes you have a MID Server that can connect to the Kubernetes host already.
+Now that we [have a Kubernetes Cluster](/kubernetes-demystified/) to Discover, lets dive into ServiceNow [Kubernetes Discovery](https://docs.servicenow.com/bundle/washingtondc-it-operations-management/page/product/service-mapping/concept/kubernetes-discovery.html).  This example assumes you have a MID Server that can connect to the Kubernetes host already.
 
 # Create a Kubernetes user with Read Access
 We need to create a read only account
