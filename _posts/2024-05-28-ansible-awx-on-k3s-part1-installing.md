@@ -16,7 +16,7 @@ Steps are:
 
 I have put together a bash script available below to auto install on most Debian or Redhat Linux variants. Just run this on your fresh Linux host and after a few minutes you should have K3s loaded with AWX deployed into the single node cluster.
 ```
-curl https://gist.githubusercontent.com/mtcoffee/79744090a1c4ce1e0ac04d64df510f3b/raw/32f6b3ef2195d3a1897792417a9bb7b04a90ad8c/InstallAWX.sh  > install-awx.sh
+curl https://gist.githubusercontent.com/mtcoffee/79744090a1c4ce1e0ac04d64df510f3b/raw/cebf6fb056a690a0b8560bc484b7a655780726ea/InstallAWX.sh  > install-awx.sh
 chmod u+x install-awx.sh
 sudo ./install-awx.sh
 ```

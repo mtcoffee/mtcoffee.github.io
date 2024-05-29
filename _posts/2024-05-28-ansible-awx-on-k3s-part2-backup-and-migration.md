@@ -8,7 +8,7 @@ Continuing from the last post, now that we have a new AWX instance on the latest
 # Solution
 1. Backup the AWX secret key
 2. Backup the postgres database
-3. Drop existing DB in existing on the new AWX instance, restore the key and db, then bring online. 
+3. Drop existing DB in existing on the new AWX instance, restore the key and db, then bring the instance online. 
 
 This will also complete the upgrade process. For light upgrades you'll want to stick with helm/operator updates but this works well for major upgrades or infrastructure changes. There is also a playbook for backup that I may investigate next. After that, we'll investigate integrating AWX with ServiceNow!
 
