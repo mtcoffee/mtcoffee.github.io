@@ -3,7 +3,7 @@ title: Ansible AWX on K3s Part1 - Installing
 ---
 
 # Summary
-I had a need to setup Ansible AWX and discovere that recently the dev team has moved from Docker to a Kubernetes Operator as the preferred way to install AWX. In this post series we will cover installing and then migrating from an older AWX release on Docker to the current release on K3s.
+I had a need to setup Ansible AWX and discovered that recently the dev team has moved from Docker to a Kubernetes Operator as the preferred way to install AWX. In this post series we will cover installing and then migrating from an older AWX release on Docker to the current release on K3s.
 
 # Solution
 
@@ -16,7 +16,7 @@ Steps are:
 
 I have put together a bash script available below to auto install on most Debian or Redhat Linux variants. Just run this on your fresh Linux host and after a few minutes you should have K3s loaded with AWX deployed into the single node cluster.
 ```
-curl https://gist.githubusercontent.com/mtcoffee/79744090a1c4ce1e0ac04d64df510f3b/raw/cebf6fb056a690a0b8560bc484b7a655780726ea/InstallAWX.sh  > install-awx.sh
+curl https://gist.githubusercontent.com/mtcoffee/79744090a1c4ce1e0ac04d64df510f3b/raw/4faf912c57facce4033f908484a75565a90e33be/InstallAWX.sh  > install-awx.sh
 chmod u+x install-awx.sh
 sudo ./install-awx.sh
 ```

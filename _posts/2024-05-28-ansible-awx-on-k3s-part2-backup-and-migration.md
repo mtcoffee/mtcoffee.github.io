@@ -3,7 +3,7 @@ title: Ansible AWX on K3s Part2 - Backup and Migration
 ---
 
 # Summary
-Continuing from the last post, now that we have a new AWX instance on the latest release how do we move our old instance data over. It's actually quite easy.
+Continuing from the last post, now that we have a new AWX instance on the latest release how do we move our old instance data over. It is actually quite easy.
 
 # Solution
 1. Backup the AWX secret key
