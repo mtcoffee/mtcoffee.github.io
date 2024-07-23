@@ -73,7 +73,7 @@ I've added a portainer deployment to the K3s server. We can be build an alert ru
 ```
 kubectl scale -n portainer --replicas=0 deployment/portainer
 ```
-![]({{ 'assets/images/grafan sn config.png' | relative_url }})
+![]({{ 'assets/images/grafana alert config.png' | relative_url }})
 
 ## Result in ServiceNow
 ![]({{ 'assets/images/sn portainer alert.png' | relative_url }})
