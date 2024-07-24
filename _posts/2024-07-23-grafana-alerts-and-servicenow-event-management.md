@@ -34,6 +34,11 @@ systemctl daemon-reload
 ```
  3. Add Helm repo
   ```
+	#install helm
+export KUBECONFIG=/etc/rancher/k3s/k3s.yaml
+curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 > install-helm.sh
+chmod u+x install-helm.sh
+./install-helm.sh
 	helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
 	```
  4. Create namespace
