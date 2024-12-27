@@ -3,7 +3,6 @@ title: OAuth 2.0 Client Credentials Grant in ServiceNow (Washington Release)
 ---
 
 # Summary
-
 In the **ServiceNow Washington release**, the platform introduces support for the **Client Credentials Grant** in OAuth 2.0, marking a significant advancement in security and usability. This grant type provides several key benefits:
 
 1. **No Need for sys_user Credentials**: Unlike other OAuth 2.0 flows, the remote party no longer needs to log in with **sys_user credentials** before authentication.
