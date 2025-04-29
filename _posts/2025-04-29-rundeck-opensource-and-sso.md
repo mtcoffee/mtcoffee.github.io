@@ -5,7 +5,7 @@ title: Rundeck OpenSource and SSO
 # Summary
 I've always been a big fan of Rundeck due to its flexibilty to do almost anything. I find it is a good compliment to ServiceNow when you need to run "**Pro Code"**, since you can configure Rundeck Jobs to execute Python/PowerShell/Ansible and then trigger those executions from a REST API!
 
-However, If you're running the Rundeck and you want Single Singon, it is not available in the open source offering, only in the Pager Duty licensed offering. However, we can leverage Rundeck's preauthentication feature and place an Apache Reverse proxy in front of Runddeck to handle the authentication and user creation!
+However, you want Single Singon, it is not available in the open source offering, only in the Pager Duty licensed offering. The good news is we can leverage Rundeck's preauthentication feature and place an Apache Reverse proxy in front of Rundeck to handle the authentication and user creation!
 
 There are a few tutorials out there using Keycloak. In my sample case I have used **Authentik**.
 * [https://medium.com/@serg-digitalis/rundeck-with-keycloak-authentication-8f84b1e1dce1 ](https://medium.com/@serg-digitalis/rundeck-with-keycloak-authentication-8f84b1e1dce1) 
