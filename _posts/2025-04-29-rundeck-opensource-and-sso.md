@@ -166,6 +166,9 @@ Define RDHost rd.domain.home
     SSLEngine on
     SSLCertificateFile /etc/ssl/certs/ssl-cert-snakeoil.pem
     SSLCertificateKeyFile /etc/ssl/private/ssl-cert-snakeoil.key
+		
+    #debug oidc - do not leave this on unless troubleshooting
+    #LogLevel auth_openidc:debug
 
     # OpenID Connect Configuration
     OIDCRedirectURI https://${RDHost}/oidc/callback
@@ -189,7 +192,10 @@ Define RDHost rd.domain.home
         RequestHeader set "X-Forwarded-User-Email" %{OIDC_CLAIM_email}e
 
         ProxyPass http://${RDHost}:4440/
-        ProxyPassReverse http://${RDHost}:4440/
+        ProxyPassReverse http://${RDHost}:4440
+				
+        RequestHeader set "X-Forwarded-Proto" https
+        RequestHeader set "X-Forwarded-Port" 443
     </Location>
 
     <Location /logout>
